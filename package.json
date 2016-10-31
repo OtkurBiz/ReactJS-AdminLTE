@@ -40,6 +40,8 @@
     "webpack-dev-server": "~1.14.1"
   },
   "scripts": {
+    "dev": "webpack-dev-server --inline --color --progress --watch",
+    "start": "webpack-dev-server --inline --color --progress --watch",
     "test": "mocha test -u bdd -R spec"
   }
 }
